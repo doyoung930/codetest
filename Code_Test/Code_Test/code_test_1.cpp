@@ -1,35 +1,63 @@
-#include "header.h"
+/// 카카오 인텔리전쉽 2024 도넛과 막대기 문제
 
-void main() {
+/// 잘모르겠음 다시풀어봐야됨 -----------------------------------
+#include <string>
+#include <vector>
+#include <map>
+#include <stack>
+#include <set>
+using namespace std;
 
-	std::vector<vector<int>> edges;
-	std::unordered_map<int, vector<int>> temps;
-	vector<int> answer(4, 0);
+map<int, vector<int>> graph;
+map<int, int> arrive_check;
+set<int> explored;
+stack<int> frontier;
+int new_vertex;
 
-	for (auto& edge : edges) {
-		int first = edge[0];
-		int second = edge[1];
 
-		if (temps.find(first) == temps.end()) { temps[first] = { 0,0 };	}
-		if (temps.find(second) == temps.end()) { temps[second] = { 0,0 };	}
+void dfs(vector<int>& answer) {
+    for (const auto& next_frontier : graph[new_vertex]) {
+        frontier.push(next_frontier);
+    }
 
-		temps[first][0]++;
-		temps[second][0]++;
-	}
+    while (!frontier.empty()) {
+        int now = frontier.top();
+        frontier.pop();
+        explored.insert(now);
 
-	for (const auto& [key, temp] : temps) {
-		// 그래프는 최소 2개 이상으로 준 것만 2개 이상인 정점이 생성점
-		if (temp[0] >= 2 && temp[1] == 0)
-			answer[0] = key;
-		// 받은 것만 있는 정점의 개수는 막대 그래프의 개수
-		else if (temp[0] == 0 && temp[1] > 0)
-			answer[2] += 1;
-		// 준 것, 받은 것 각각 2개 이상인 점의 개수는 8자 그래프의 개수
-		else if (temp[0] >= 2 && temp[1] >= 2)
-			answer[3] += 1;
-	}
-
-	// 전체 그래프 개수인 생성점의 준 것에서 2종류의 그래프를 빼면 도넛 그래프의 개수
-	answer[1] = (temps[answer[0]][0] - answer[2] - answer[3]);
-
+        if (graph.find(now) == graph.end()) {
+            answer[2] += 1;
+        }
+        else if (graph[now].size() == 2) {
+            answer[3] += 1;
+        }
+        else if (graph[now].size() == 1) {
+            if (explored.find(graph[now][0]) != explored.end()) answer[1] += 1;
+            else frontier.push(graph[now][0]);
+        }
+    }
 }
+
+vector<int> solution(vector<vector<int>> edges) {
+
+    for (int i = 0; i < edges.size(); i++) {
+        graph[edges[i][0]].push_back(edges[i][1]);
+        arrive_check[edges[i][1]] = 1;
+    }
+
+    for (const auto& element : graph) {
+        if (arrive_check.find(element.first) == arrive_check.end() && element.second.size() >= 2) { new_vertex = element.first; break; }
+    }
+
+    vector<int> answer;
+
+    answer.push_back(0); answer.push_back(0); answer.push_back(0); answer.push_back(0);
+
+    answer[0] = new_vertex;
+
+    dfs(answer);
+
+    return answer;
+}
+
+/// 
