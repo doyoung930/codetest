@@ -8,4 +8,5 @@
 #include <string>
 #include <algorithm>
 #include <sstream>
+#include <array>
 using namespace std;
