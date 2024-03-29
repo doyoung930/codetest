@@ -7,6 +7,10 @@
       "RelativeMoniker": "D:0:0:{AD40C3E6-FE3F-4AAA-979C-CB08F005951F}|Code_Test\\Code_Test.vcxproj|solutionrelative:Code_Test\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{AD40C3E6-FE3F-4AAA-979C-CB08F005951F}|Code_Test\\Code_Test.vcxproj|C:\\code\\codetest\\Code_Test\\Code_Test\\header.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{AD40C3E6-FE3F-4AAA-979C-CB08F005951F}|Code_Test\\Code_Test.vcxproj|solutionrelative:Code_Test\\header.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{AD40C3E6-FE3F-4AAA-979C-CB08F005951F}|Code_Test\\Code_Test.vcxproj|C:\\code\\codetest\\Code_Test\\Code_Test\\[PCCP 2\uBC88].cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{AD40C3E6-FE3F-4AAA-979C-CB08F005951F}|Code_Test\\Code_Test.vcxproj|solutionrelative:Code_Test\\[PCCP 2\uBC88].cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
@@ -30,7 +34,7 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "[PCCP 2\uBC88].cpp",
               "DocumentMoniker": "C:\\code\\codetest\\Code_Test\\Code_Test\\[PCCP 2\uBC88].cpp",
               "RelativeDocumentMoniker": "Code_Test\\[PCCP 2\uBC88].cpp",
@@ -38,12 +42,11 @@
               "RelativeToolTip": "Code_Test\\[PCCP 2\uBC88].cpp",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-03-26T21:10:11.818Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-26T21:10:11.818Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "code_test_3.cpp",
               "DocumentMoniker": "C:\\code\\codetest\\Code_Test\\Code_Test\\code_test_3.cpp",
               "RelativeDocumentMoniker": "Code_Test\\code_test_3.cpp",
@@ -51,8 +54,7 @@
               "RelativeToolTip": "Code_Test\\code_test_3.cpp",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-03-26T21:09:10.921Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-26T21:09:10.921Z"
             },
             {
               "$type": "Document",
@@ -62,14 +64,27 @@
               "RelativeDocumentMoniker": "Code_Test\\main.cpp",
               "ToolTip": "C:\\code\\codetest\\Code_Test\\Code_Test\\main.cpp",
               "RelativeToolTip": "Code_Test\\main.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAABAAAA",
+              "ViewState": "AQIAAEAAAAAAAAAAAAAAAFAAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-03-26T21:09:10.483Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
+              "Title": "header.h",
+              "DocumentMoniker": "C:\\code\\codetest\\Code_Test\\Code_Test\\header.h",
+              "RelativeDocumentMoniker": "Code_Test\\header.h",
+              "ToolTip": "C:\\code\\codetest\\Code_Test\\Code_Test\\header.h",
+              "RelativeToolTip": "Code_Test\\header.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-03-28T09:25:45.426Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "code_test_1.cpp",
               "DocumentMoniker": "C:\\code\\codetest\\Code_Test\\Code_Test\\code_test_1.cpp",
               "RelativeDocumentMoniker": "Code_Test\\code_test_1.cpp",
@@ -77,8 +92,7 @@
               "RelativeToolTip": "Code_Test\\code_test_1.cpp",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAASAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-03-26T21:06:50.889Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-26T21:06:50.889Z"
             }
           ]
         }
