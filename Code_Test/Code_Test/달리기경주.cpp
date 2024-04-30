@@ -1,15 +1,11 @@
-#include "header.h"
+// 달리기경주
+#include"header.h"
 
-#include "달리기경주.cpp"
-using namespace std;
-
-
-// 각 시간과 시간과 관련된 로직을 가지는 Time 클래스
 vector<string> solution(vector<string> players, vector<string> callings) {
     vector<string> answer;
     vector<string> temp;
-
-    for (auto& c : callings) {
+    
+    for (auto c : callings) {
         for (int i = 0; i < size(answer); i++) {
             if (answer[i] == c) {
                 if (i != 0) {
@@ -21,24 +17,10 @@ vector<string> solution(vector<string> players, vector<string> callings) {
             }
             else
                 temp[i] = answer[i];
-
+            
         }
 
     }
 
     return answer;
 }
-
-int main() {
-
-    vector<string> player{ "mumu", "soe", "poe", "kai", "mine" };
-    vector<string> calling{ "kai", "kai", "mine", "mine" };
-
-    vector<string> answers;
-    answers = solution(player, calling);
-    for (auto& t : answers) {
-        std::cout << t << std::endl;
-    }
-    return 0;
-}
- 
