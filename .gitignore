@@ -11,6 +11,8 @@
 *.lastbuildstate
 *.suo
 *.db
+*.vsidx
+*.ipch
 mAP_tool/inference/
 Code_Test/.vs/Code_Test/FileContentIndex/6d98e7b8-d084-4e30-8132-3166b825bac0.vsidx
 Code_Test/.vs/Code_Test/FileContentIndex/8ac152f6-2b05-4d5d-810b-25876796a274.vsidx
