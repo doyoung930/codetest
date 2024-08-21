@@ -154,6 +154,8 @@
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="삼총사.cpp" />
+    <ClCompile Include="숫자 짝꿍.cpp" />
+    <ClCompile Include="최소직사각형.cpp" />
     <ClCompile Include="추억점수.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>

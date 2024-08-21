@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\code\\codetest\\Code_Test\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{AD40C3E6-FE3F-4AAA-979C-CB08F005951F}|Code_Test\\Code_Test.vcxproj|C:\\code\\codetest\\Code_Test\\Code_Test\\\uCD5C\uC18C\uC9C1\uC0AC\uAC01\uD615.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{AD40C3E6-FE3F-4AAA-979C-CB08F005951F}|Code_Test\\Code_Test.vcxproj|solutionrelative:Code_Test\\\uCD5C\uC18C\uC9C1\uC0AC\uAC01\uD615.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD40C3E6-FE3F-4AAA-979C-CB08F005951F}|Code_Test\\Code_Test.vcxproj|C:\\code\\codetest\\Code_Test\\Code_Test\\\uC22B\uC790 \uC9DD\uAFCD.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{AD40C3E6-FE3F-4AAA-979C-CB08F005951F}|Code_Test\\Code_Test.vcxproj|solutionrelative:Code_Test\\\uC22B\uC790 \uC9DD\uAFCD.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{AD40C3E6-FE3F-4AAA-979C-CB08F005951F}|Code_Test\\Code_Test.vcxproj|C:\\code\\codetest\\Code_Test\\Code_Test\\\uC0BC\uCD1D\uC0AC.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{AD40C3E6-FE3F-4AAA-979C-CB08F005951F}|Code_Test\\Code_Test.vcxproj|solutionrelative:Code_Test\\\uC0BC\uCD1D\uC0AC.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
@@ -63,6 +71,31 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "\uCD5C\uC18C\uC9C1\uC0AC\uAC01\uD615.cpp",
+              "DocumentMoniker": "C:\\code\\codetest\\Code_Test\\Code_Test\\\uCD5C\uC18C\uC9C1\uC0AC\uAC01\uD615.cpp",
+              "RelativeDocumentMoniker": "Code_Test\\\uCD5C\uC18C\uC9C1\uC0AC\uAC01\uD615.cpp",
+              "ToolTip": "C:\\code\\codetest\\Code_Test\\Code_Test\\\uCD5C\uC18C\uC9C1\uC0AC\uAC01\uD615.cpp",
+              "RelativeToolTip": "Code_Test\\\uCD5C\uC18C\uC9C1\uC0AC\uAC01\uD615.cpp",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAIwA4AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-08-16T06:35:27.015Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "\uC22B\uC790 \uC9DD\uAFCD.cpp",
+              "DocumentMoniker": "C:\\code\\codetest\\Code_Test\\Code_Test\\\uC22B\uC790 \uC9DD\uAFCD.cpp",
+              "RelativeDocumentMoniker": "Code_Test\\\uC22B\uC790 \uC9DD\uAFCD.cpp",
+              "ToolTip": "C:\\code\\codetest\\Code_Test\\Code_Test\\\uC22B\uC790 \uC9DD\uAFCD.cpp",
+              "RelativeToolTip": "Code_Test\\\uC22B\uC790 \uC9DD\uAFCD.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-08-15T20:05:49.297Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "\uC0BC\uCD1D\uC0AC.cpp",
               "DocumentMoniker": "C:\\code\\codetest\\Code_Test\\Code_Test\\\uC0BC\uCD1D\uC0AC.cpp",
               "RelativeDocumentMoniker": "Code_Test\\\uC0BC\uCD1D\uC0AC.cpp",
@@ -70,12 +103,11 @@
               "RelativeToolTip": "Code_Test\\\uC0BC\uCD1D\uC0AC.cpp",
               "ViewState": "AQIAAAAAAAAAAAAAAAAIwA8AAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-08-15T14:38:39.435Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-15T14:38:39.435Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "\uCF5C\uB77C\uBB38\uC81C.cpp",
               "DocumentMoniker": "C:\\code\\codetest\\Code_Test\\Code_Test\\\uCF5C\uB77C\uBB38\uC81C.cpp",
               "RelativeDocumentMoniker": "Code_Test\\\uCF5C\uB77C\uBB38\uC81C.cpp",
@@ -83,12 +115,11 @@
               "RelativeToolTip": "Code_Test\\\uCF5C\uB77C\uBB38\uC81C.cpp",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAOAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-08-14T21:54:34.559Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-14T21:54:34.559Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "\uD584\uBC84\uAC70\uB9CC\uB4E4\uAE30.cpp",
               "DocumentMoniker": "C:\\code\\codetest\\Code_Test\\Code_Test\\\uD584\uBC84\uAC70\uB9CC\uB4E4\uAE30.cpp",
               "RelativeDocumentMoniker": "Code_Test\\\uD584\uBC84\uAC70\uB9CC\uB4E4\uAE30.cpp",
@@ -100,7 +131,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "\uCD94\uC5B5\uC810\uC218.cpp",
               "DocumentMoniker": "C:\\code\\codetest\\Code_Test\\Code_Test\\\uCD94\uC5B5\uC810\uC218.cpp",
               "RelativeDocumentMoniker": "Code_Test\\\uCD94\uC5B5\uC810\uC218.cpp",
@@ -112,7 +143,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "code_test_2.cpp",
               "DocumentMoniker": "C:\\code\\codetest\\Code_Test\\Code_Test\\code_test_2.cpp",
               "RelativeDocumentMoniker": "Code_Test\\code_test_2.cpp",
@@ -124,7 +155,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "\uB2EC\uB9AC\uAE30\uACBD\uC8FC.cpp",
               "DocumentMoniker": "C:\\code\\codetest\\Code_Test\\Code_Test\\\uB2EC\uB9AC\uAE30\uACBD\uC8FC.cpp",
               "RelativeDocumentMoniker": "Code_Test\\\uB2EC\uB9AC\uAE30\uACBD\uC8FC.cpp",
@@ -136,7 +167,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "main.cpp",
               "DocumentMoniker": "C:\\code\\codetest\\Code_Test\\Code_Test\\main.cpp",
               "RelativeDocumentMoniker": "Code_Test\\main.cpp",
@@ -148,7 +179,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "[PCCP 2\uBC88].cpp",
               "DocumentMoniker": "C:\\code\\codetest\\Code_Test\\Code_Test\\[PCCP 2\uBC88].cpp",
               "RelativeDocumentMoniker": "Code_Test\\[PCCP 2\uBC88].cpp",
@@ -160,7 +191,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "code_test_3.cpp",
               "DocumentMoniker": "C:\\code\\codetest\\Code_Test\\Code_Test\\code_test_3.cpp",
               "RelativeDocumentMoniker": "Code_Test\\code_test_3.cpp",
@@ -172,7 +203,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "[PCCP 3\uBC88].cpp",
               "DocumentMoniker": "C:\\code\\codetest\\Code_Test\\Code_Test\\[PCCP 3\uBC88].cpp",
               "RelativeDocumentMoniker": "Code_Test\\[PCCP 3\uBC88].cpp",
@@ -184,7 +215,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "header.h",
               "DocumentMoniker": "C:\\code\\codetest\\Code_Test\\Code_Test\\header.h",
               "RelativeDocumentMoniker": "Code_Test\\header.h",
@@ -196,7 +227,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 13,
               "Title": "code_test_1.cpp",
               "DocumentMoniker": "C:\\code\\codetest\\Code_Test\\Code_Test\\code_test_1.cpp",
               "RelativeDocumentMoniker": "Code_Test\\code_test_1.cpp",

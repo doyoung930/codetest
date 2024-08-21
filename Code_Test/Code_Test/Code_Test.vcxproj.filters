@@ -54,6 +54,12 @@
     <ClCompile Include="삼총사.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="숫자 짝꿍.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="최소직사각형.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="header.h">
