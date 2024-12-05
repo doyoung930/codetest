@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup Label="ProjectConfigurations">
     <ProjectConfiguration Include="Debug|Win32">
@@ -150,11 +150,15 @@
     <ClCompile Include="[PCCP 9번].cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="게임 맵 최단거리.cpp" />
     <ClCompile Include="달리기경주.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="리코쳇로봇.cpp" />
     <ClCompile Include="삼총사.cpp" />
+    <ClCompile Include="과제진행하기.cpp" />
     <ClCompile Include="숫자 짝꿍.cpp" />
+    <ClCompile Include="연속된부분수열의합.cpp" />
     <ClCompile Include="최소직사각형.cpp" />
     <ClCompile Include="추억점수.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
@@ -162,9 +166,11 @@
     <ClCompile Include="콜라문제.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="타겟넘버.cpp" />
     <ClCompile Include="햄버거만들기.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="혼자서하는틱택톡.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="header.h" />
