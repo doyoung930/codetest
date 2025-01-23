@@ -156,14 +156,17 @@
     </ClCompile>
     <ClCompile Include="삼총사.cpp" />
     <ClCompile Include="숫자 짝꿍.cpp" />
+    <ClCompile Include="점찍기.cpp" />
     <ClCompile Include="최소직사각형.cpp" />
     <ClCompile Include="추억점수.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="유사 칸토어 비트열.cpp" />
     <ClCompile Include="콜라문제.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="할인행사.cpp" />
+    <ClCompile Include="해시 테이블.cpp" />
     <ClCompile Include="햄버거만들기.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
